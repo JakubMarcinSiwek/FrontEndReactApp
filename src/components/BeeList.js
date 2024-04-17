@@ -31,7 +31,9 @@ const BeeList = (props) => {
                     {bees.map(bee => (
                         <li key={bee.id_Bee} style={{ marginBottom: '10px', padding: '10px', border: '1px solid #ccc', borderRadius: '4px' }}>
                             {`ID: ${bee.id_Bee}, Nickname: ${bee.nickname}, Role: ${bee.role}`}
+                            <p>nowy feature</p>
                         </li>
+
                     ))}
                 </ul>
                 <div>
